@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+        <TextView
+            android:id="@+id/ChngPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:textColor="#0000cc" />
+
+        <TextView
+            android:id="@+id/Delaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textSize="25dp"
+            android:textColor="#0000cc"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="25dp"
+            android:textColor="#0000cc"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="25dp"
+            android:textColor="#0000cc"
+            android:paddingLeft="10dp"/>
+
+</LinearLayout>

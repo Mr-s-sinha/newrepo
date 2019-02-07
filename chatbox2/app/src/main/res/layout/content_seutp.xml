@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SeutpActivity"
+    tools:showIn="@layout/activity_seutp">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/progressBar"
+        android:visibility="visible"
+        android:background="#99ff99"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SET YOUR NAME"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:hint="Name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setup_btn"
+        android:text="save"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
